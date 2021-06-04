@@ -182,7 +182,7 @@ metada:
 spec:
   type: ClusterIP
   selector:
-    app: primeir-pod
+    app: primeiro-pod
   ports:
     - port: 80
       targetPort: 9000
