@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: db-configmap
+data:
+  MYSQL_DATABASE: noticias
+  MYSQL_PASSWORD: root
+  MYSQL_ROOT_PASSWORD: root
