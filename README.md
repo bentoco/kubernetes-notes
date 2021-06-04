@@ -125,8 +125,8 @@ metadata:
   name: primeiro-pod-declarativo
 spec:
   containers:
-	  - name: nginx-container
-	  image: nginx:latest
+    - name: nginx-container
+      image: nginx:latest
 ```
 
 Entregando o arquivo de configuração para api criar o pod:
@@ -163,8 +163,8 @@ metadata:
     app: primeiro-pod
 spec:
   containers:
-	  - name: container-pod-1
-	    image: nginx:latest
+    - name: container-pod-1
+      image: nginx:latest
       ports:
         - containerPort: 80
 ```
