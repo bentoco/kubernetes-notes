@@ -1,5 +1,7 @@
 # KUBERNETES: PODS, SERVICES E CONFIGMAPS
 
+![alt text](image/diagrama.jpeg)
+
 ## Aquitetura:
 ---
 
